@@ -6,7 +6,7 @@ Summary(pl):	Modu³ perla Class::Singleton
 Name:		perl-Class-Singleton
 Version:	1.03
 Release:	1
-License:	GPL or Artistic
+License:	GPL/Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
