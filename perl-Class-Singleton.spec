@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	Singleton
+%define		pdir	Class
+%define		pnam	Singleton
 Summary:	Class::singleton - implementation of a "Singleton" class
 Summary(pl):	Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
