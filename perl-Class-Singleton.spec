@@ -9,7 +9,7 @@ Summary:	Class::singleton - implementation of a "Singleton" class
 Summary(pl):	Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
 Version:	1.03
-Release:	2
+Release:	3
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
