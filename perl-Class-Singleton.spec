@@ -3,7 +3,7 @@
 %define	pnam	Singleton
 Summary:	Class::singleton perl module
 Summary(pl):	Modu³ perla Class::Singleton
-Name:		perl-Class-Sigleton
+Name:		perl-Class-Singleton
 Version:	1.03
 Release:	1
 License:	GPL or Artistic
@@ -13,6 +13,7 @@ BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	perl-Class-Sigleton
 
 %description
 This is the Class::Singleton module. A Singleton describes an object
