@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc *.gz
-%{perl_sitelib}/Crypt/UnixCrypt.pm
+%{perl_sitelib}/Class/*
 %{_mandir}/man3/*
