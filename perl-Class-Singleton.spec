@@ -1,12 +1,12 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Class
 %define	pnam	Singleton
-Summary:	Class::singleton perl module
-Summary(pl):	Modu³ perla Class::Singleton
+Summary:	Class::singleton - implementation of a "Singleton" class
+Summary(pl):	Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
 Version:	1.03
 Release:	2
-License:	GPL/Artistic
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	80202a57411cb3e939fec327a87564bf
