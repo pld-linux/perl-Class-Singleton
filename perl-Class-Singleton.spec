@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Singleton
 Summary:	Class::singleton - implementation of a "Singleton" class
-Summary(pl):	Class::Singleton - implementacja klasy Singleton
+Summary(pl.UTF-8):   Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
 Version:	1.03
 Release:	3
@@ -30,15 +30,15 @@ manage the instantiation of a single object. In deriving a class from
 Class::Singleton, your module will inherit the Singleton instantiation
 method and can implement whatever specific functionality is required.
 
-%description -l pl
-To jest modu³ Class::Singleton. Singleton opisuje obiekt klasy, który
-ma tylko jedn± instancjê w systemie - na przyk³ad serwer wydruków. Ten
-modu³ implementuje klasê Singleton, z której mo¿na dziedziczyæ inne
-klasy. Sam modu³ Class::Singleton robi niewiele wiêcej ni¿ samo
-zarz±dzanie pojedyncz± instancj± obiektu. Poprzez dziedziczenie z
-klasy z Class:Singleton, modu³y odziedzicz± istnienie pojedynczej
-instancji w systemie, a dodatkowo mog± mieæ zaimplementowan± w³a¶ciw±
-funkcjonalno¶æ.
+%description -l pl.UTF-8
+To jest moduÅ‚ Class::Singleton. Singleton opisuje obiekt klasy, ktÃ³ry
+ma tylko jednÄ… instancjÄ™ w systemie - na przykÅ‚ad serwer wydrukÃ³w. Ten
+moduÅ‚ implementuje klasÄ™ Singleton, z ktÃ³rej moÅ¼na dziedziczyÄ‡ inne
+klasy. Sam moduÅ‚ Class::Singleton robi niewiele wiÄ™cej niÅ¼ samo
+zarzÄ…dzanie pojedynczÄ… instancjÄ… obiektu. Poprzez dziedziczenie z
+klasy z Class:Singleton, moduÅ‚y odziedziczÄ… istnienie pojedynczej
+instancji w systemie, a dodatkowo mogÄ… mieÄ‡ zaimplementowanÄ… wÅ‚aÅ›ciwÄ…
+funkcjonalnoÅ›Ä‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
