@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	Singleton
 Summary:	Class::singleton - implementation of a "Singleton" class
-Summary(pl.UTF-8):   Class::Singleton - implementacja klasy Singleton
+Summary(pl.UTF-8):	Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
 Version:	1.03
 Release:	3
