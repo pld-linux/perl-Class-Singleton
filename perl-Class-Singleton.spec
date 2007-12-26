@@ -12,7 +12,7 @@ Version:	1.4
 Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Class-Singleton/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a18b108ab97e2107cbbe816d2b3e2ee3
 URL:		http://search.cpan.org/dist/Class-Singleton/
 BuildRequires:	rpm-perlprov >= 4.1-13
