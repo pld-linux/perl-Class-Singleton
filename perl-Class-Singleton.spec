@@ -8,18 +8,19 @@
 Summary:	Class::singleton - implementation of a "Singleton" class
 Summary(pl.UTF-8):	Class::Singleton - implementacja klasy Singleton
 Name:		perl-Class-Singleton
-Version:	1.4
+Version:	1.5
 Release:	1
-License:	Artistic
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a18b108ab97e2107cbbe816d2b3e2ee3
+# Source0-md5:	6a2524f590eda075f4bc929598119241
 URL:		http://search.cpan.org/dist/Class-Singleton/
-BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
+Obsoletes:	perl-Class-Sigleton
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	perl-Class-Sigleton
 
 %description
 This is the Class::Singleton module. A Singleton describes an object
@@ -62,6 +63,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes README
-%{perl_vendorlib}/Class/*
-%{_mandir}/man3/*
+%doc Changes
+%{perl_vendorlib}/Class/Singleton.pm
+%{_mandir}/man3/Class::Singleton.3pm*
