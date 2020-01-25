@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	Singleton
 Summary:	Class::singleton - implementation of a "Singleton" class
