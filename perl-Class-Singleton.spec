@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tets
 #
 %define		pdir	Class
 %define		pnam	Singleton
@@ -12,9 +12,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	https://www.cpan.org/modules/by-module/Class/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d9c84a7b8d1c490c38e88ed1f9faae47
-URL:		https://metacpan.org/release/Class-Singleton
+URL:		https://metacpan.org/dist/Class-Singleton
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.64
 BuildRequires:	perl-devel >= 1:5.8.1
 %if %{with tests}
